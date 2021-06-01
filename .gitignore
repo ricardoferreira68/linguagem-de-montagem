@@ -1,18 +1,19 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Visual Studio Code
+.vscode/
 
-# Other files and folders
-.settings/
+# Para ignorar os arquivos binários
+# ignorar tudo.
+*
+# Exceto os arquivos com extensão .c
+!*.c
+# Exceto os arquivos com extensão .cpp
+!*.cpp
+# Exceto os arquivos com extensão .inc
+!*.inc
+# Exceto os arquivos com extensão .asm
+!*.asm
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# fasm
+#fasm/*
+#fasm/*.asm
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
